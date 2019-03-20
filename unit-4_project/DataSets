@@ -1,0 +1,64 @@
+[0] Lending Club
+
+From Kaggle:
+https://www.kaggle.com/wendykan/lending-club-loan-data
+
+These files contain complete loan data for all loans issued through the 2007-2015, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information. The file containing loan data through the "present" contains complete loan data for all loans issued through the previous completed calendar quarter. Additional features include credit scores, number of finance inquiries, address including zip codes, and state, and collections among others. The file is a matrix of about 890 thousand observations and 75 variables. A data dictionary is provided in a separate file. k
+
+
+
+[1] Option 4: Loan Data
+
+From Kaggle:
+https://www.kaggle.com/c/loan-default-prediction/data
+
+These files contain complete loan data for all loans issued through the 2007-2015, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information. The file containing loan data through the "present" contains complete loan data for all loans issued through the previous completed calendar quarter. Additional features include credit scores, number of finance inquiries, address including zip codes, and state, and collections among others. The file is a matrix of about 890 thousand observations and 75 variables. A data dictionary is provided in a separate file.
+Possible areas to examine:
+
+What factors most explain on-time loan repayments?
+As a bank, what evaluation metric would you opt for to determine if a given loan should be given? 
+As a consumer, what evaluation metric would you opt for to determine if a given loan should be given? 
+How does this affect your model's performance?
+
+[2] Penguins
+
+http://www.robots.ox.ac.uk/~vgg/research/penguins/
+
+Overview
+
+A dataset for learning from crowd-sourced dot-annotations.
+
+The penguin dataset is a collection of images of penguin colonies in Antarctica coming from the larger penguin watch project, which was setup with the purpose of monitoring their changes in population. The images are taken by fixed cameras in over 40 different locations, which have been capturing an image per hour for several years. In order to track the colony sizes, the number of penguins in each of the images in the dataset is required.
+
+So far, the penguin count has been done with the help of citizen scientists on the Penguin Watch site by Zooniverse, where interested users can place dots on top of the penguins. Here we release part of this data to the vision community in order to learn from the crowd-sourced dot-annotations to automatically annotate these images.
+For more information about the project, please visit Penguin Watch.
+Examples
+
+Each of the sites in the penguin dataset has different properties, which result in different levels of difficulty. For example, some cameras are placed to capture wide shots, where penguins appear in very low effective resolution. Other cameras are placed in such a way that the perspective creates constant occlusion. Factors external to the cameras, such as the weather on site, also represent difficulty factors that must be dealt with. Examples from different sites are shown below.
+
+Annotations
+
+The annotations provided with the penguin dataset come from the Penguin Watch citizen-science site. These mainly consist of raw X-Y coordinates of dots placed by each of the site's volunteers, who are instructed to click con each penguin. In the following example we show the dots placed by eight different (and colour coded) volunteers.
+
+
+
+
+[3] Magic The Gathering
+
+From Kaggle:
+https://www.kaggle.com/zelzebu/magic-the-gathering-overview/data
+
+Magic The Gathering (MTG, or just Magic) is a trading card game first published in 1993 by Wizards of the Coast. This game has seen immense popularity and new cards are still released every few months. The strength of different cards in the game can vary wildly and as a result some cards now sell on secondary markets for as high as thousands of dollars.
+
+MTG JSON has an excellent collection of every single Magic Card - stored in JSON data. Version 3.6 (collected September 21, 2016) of their database is provided here.
+
+Full documentation for the data is provided here: http://mtgjson.com/documentation.html
+
+Also, if you want to include images of the cards in your writeups, you can grab them from the official Wizards of the Coast website using the following URL:
+
+http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=180607&type=card
+
+Just replace the multiverse ID with the one provided in the mtgjson file.
+
+Given a random set of hands (deals), what is the likelyhood of winning
+

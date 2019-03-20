@@ -1,0 +1,21 @@
+The Web Scraping notebook requires Anaconda to be running in default Python 2 environment to run Selenium.
+
+Run bash from the shell command line (if not already in bash)
+$ bash
+
+Enter Python 2 container
+bash-3.2$ source activate python27
+
+Verify Python Version
+(python27) bash-3.2$ python --version Python 2.7.13 :: Continuum Analytics, Inc.
+
+Launch Anaconda from the command line in the container
+(Python27) bash-3.2$ /anaconda/envs/Python27/bin/jupyter_mac.command ; exit;
+
+(Python27) bash-3.2$ ctrl-c
+also exits container
+
+if not,
+(Python27) bash-3.2$ source deactivate python27
+bash-3.2$ 
+
